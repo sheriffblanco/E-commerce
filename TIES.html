@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TIES</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="ties.css">
+</head>
+<body style="background-color: orange;">
+
+<nav class="navbar navbar-light bg-dark" style="box-shadow: 5px 10px 18px black;">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search Categories" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+  <div style="display: inline-flex; padding: 5px; ">
+    <i class="fa fa-sign-in" style="color: white; font-size: 20px; padding: 5px; "> Sign up</i>
+  	<button class="btn btn-light my-2 my-sm-0" style="margin: 2px;" type="submit">
+      <i class="material-icons" style="font-size: 18px;">person</i>Login</button>
+   <button class="btn btn-light my-2 my-sm-0" style="margin: 2px;"  type="submit">
+    <i class="fa fa-shopping-cart"></i> Cart</button>
+   <button class="btn btn-primary my-2 my-sm-0" style="margin: 2px;"  type="submit">
+    <i class="fa fa-usd"></i> Sell</button>
+   <button class="btn btn-danger  my-2 my-sm-0" style="margin: 2px;"  type="submit">
+    <i class="material-icons" style="font-size: 18px;">help</i>Help</button>	
+  </div>
+  </nav>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand offset-md-3" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Computers & Accessories<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Phones & Tablets</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Electronics
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">TVs</a>
+          <a class="dropdown-item" href="#">Home Appliances</a>
+          <div class="dropdown-divider">Office</div>
+          <a class="dropdown-item" href="#">Office</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Fashion</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br>
+<div class="container">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="iphone6.jpeg" style="height: 370px; background-position: center; background-position: center;" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="TV2.jpeg"  style="height: 370px; background-position: center; background-position: center;" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Refrigerator.jpg"  style="height: 370px; background-position: center; background-position: center;" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="container">
+    <h2 style="text-align: center; color: white;">Top Sales</h2>
+    <div class="row justify-content-md-center">
+      <div class="col-md-4 col-sm-6" style="padding: 0"><img src="sneakers.jpeg" style="width: 100%; height: 240px;">
+      </div>
+      <div class="col-md-4 col-sm-6" style="padding: 0"><img src="watch.jpeg" style="width: 100%; height: 240px;">
+      </div>
+      <div class="col-md-4 col-sm-6" style="padding: 0"><img src="iphone6.jpeg" style="width: 100%; height: 240px; ">
+      </div>  
+    </div>
+    <br>
+    <h1 style="text-align: center; color: white; 
+      font-family: arial;background-color: black; 
+      font-size: 30px;">Our #3000 Store</h1>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="card"">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <h1 class="mt-4" style="text-align: center; color: white; font-family:cursive;">Brand(Sponsors)</h1>
+    <div class="card bg-dark text-white">
+      <div class="row">
+        <div class="col-md-6">
+            <img src="flatcard.jpg" class="card-img" alt="card">    
+        </div>
+        <div class="col-md-6">
+          <img src="flatcard1.jpg" class="card-img" alt="card">
+        </div>
+      </div>
+      
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
+    </div>
+
+    <div class="container-fluid"  style="border: 2px solid red; background-color: white; ">
+      <marquee><h5 style="padding: 10px;">Shop Collections You Love!</h5></marquee>
+        <div class="row">
+          <div class="col-md-2 col-sm-4">
+            <div>
+              <img src="shoe.jpg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+          <div class="col-md-2 col-sm-4 ">
+            <div>
+              <img src="shoe.jpg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <div>
+              <img src="shoe.jpg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <div>
+              <img src="shoe.jpg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <div>
+              <img src="shoe.jpg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <div>
+              <img src="shoe.jpg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+        <marquee><h5 style="padding: 10px;">Popular categories!</h5></marquee>
+          <div class="row">
+            <div class="col-md-2 col-sm-4">
+            <div><a href="android.html">
+              <img src="laptop.jpeg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </a></div>   
+          </div>
+          <div class="col-md-2 col-sm-4 ">
+            <div>
+              <img src="laptop.jpeg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <div>
+              <img src="laptop.jpeg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <div>
+              <img src="laptop.jpeg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <div>
+              <img src="laptop.jpeg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+          <div class="col-md-2 col-sm-4">
+            <div>
+              <img src="laptop.jpeg" style="height: 140px; width: 100%;">
+              <p style="text-align: center;">Android vs IOS</p>
+            </div>   
+          </div>
+      
+    </div>
+
+
+</div>
+</div>
+<div class="container-fluid" style="background-color: black; color: white;">
+  <div class="row">
+    <div class="col-md-3">
+      <h1>Logo</h1>
+    </div>
+    <div class="col-md-6">
+      <h5>New to blanco</h5>
+      <p>Subscribe to our newsletter to get updates on our latest offers!</p>
+      <form>
+        <input class="col-md-8" type="text" name="">
+      </form>
+    </div>
+    <div class="col-md-3">
+      <div class="row">
+        <div class="col-md-3">
+          <span ><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size: 39px;  color: red;"></i>    
+        </div>
+        <div class="col-md-8">
+          <p style="font-size: 13px; margin-bottom:-4px; color: red; font-family: impact, Charcoal, sans-serif;"><b>DOWNLOAD TIES FREE APP</b></p>
+          <p style="font-size: 10px; margin-bottom:-4px;">Get access to exclusive offers</p>
+        </div>
+      </div>
+      
+      <!-- <i class="fa fa-bath" aria-hidden="true"></i> -->
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

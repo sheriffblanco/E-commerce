@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learning HTML 5</title>
+
+        <style>
+            body{
+                margin: 0;
+            }
+            .main-menu{
+                background: black;
+                margin: 0;
+            }
+            .nav-menu{
+                list-style: none;
+                padding: 0;
+                display: inline-flex;
+            }
+            .nav-link{
+                text-decoration: none;
+                color: white;
+                padding: 10px 15px;
+            }
+            .nav-link:hover{
+                background: white;
+                color: black;
+            }
+            .dropdown{
+                list-style: none;
+                padding: 0;
+                position: absolute;
+                top: 51px;
+                background: black;
+                border: 1px solid;
+            }
+            .dropdown .nav-link{
+                padding: 5px;
+                display: block;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="column">
+                <div class="logo">
+                    <!-- <img src="" alt=""> -->
+                    Company Name
+                </div>
+                <nav class="main-menu">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Services</a>
+                
+                            <ul class="dropdown">
+                                <li class="nav-item"><a class="nav-link" href="">Web Development</a></li>
+                                <li class="nav-item"><a class="nav-link" href="">SEO</a></li>
+                                <li class="nav-item"><a class="nav-link" href="">iOS Development</a></li>
+                                <li class="nav-item"><a class="nav-link" href="">Android Development</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <a href="">Login</a>
+                    <a href="">Signup</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+
+            <p style="background: red; padding-bottom: 50px; margin: 30px;" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur nesciunt quas nulla, voluptatum perferendis eius fugiat. Saepe, laborum. Quasi porro accusantium repellendus odio natus quis non similique pariatur. Aut!
+            </p>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
